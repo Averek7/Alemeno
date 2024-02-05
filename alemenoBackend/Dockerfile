@@ -14,5 +14,4 @@ COPY . /app/
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
-# docker build -t alemeno_backend .
-# docker run -p 8000:8000 alemeno_backend
+# docker run -p 8000:8000 alemenobackend
